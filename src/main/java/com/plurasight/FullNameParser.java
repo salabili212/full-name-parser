@@ -24,11 +24,13 @@ public class FullNameParser {
                 System.out.println("Last Name: "+lastName);
             }
 
-            case 2->{
+            case 2 -> {
                 String firstName = name[0];
                 String lastName = name[1];
-                System.out.println("First Name: "+firstName);
-                System.out.println("Middle Name: "+lastName);
+
+                System.out.println("First Name: " + firstName);
+                System.out.println("Middle Name: (none)");
+                System.out.println("Last Name: " + lastName);
             }
             default -> {
                 System.out.println(
