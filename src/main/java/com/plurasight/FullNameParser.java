@@ -10,7 +10,7 @@ public class FullNameParser {
         String fullName = scanner.nextLine().trim();
 
         //split the fullname by space
-        String [] name = fullName.split(" ");
+        String [] name = fullName.split("\\s+");
 
 
         //check how long the length that will give us a sign whether full name has middle name or not
